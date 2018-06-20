@@ -1,0 +1,40 @@
+{
+    "name": "phoenixrvd/bitmask",
+    "description": "bitmask utility package",
+    "type": "utility",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "ext-xdebug": "*",
+        "phpunit/phpunit": "^6.1",
+        "codeclimate/php-test-reporter": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhoenixRVD\\Bitmask\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhoenixRVD\\Bitmask\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Viacheslav Wolf",
+            "email": "phoenixrvd@yahoo.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "bitmask:test": [
+            "@composer install",
+            "@php vendor/bin/phpunit --configuration phpunit.xml"
+        ],
+        "bitmask:toc": [
+            "doctoc README.md --notitle"
+        ]
+    }
+}
