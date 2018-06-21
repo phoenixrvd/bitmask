@@ -1,5 +1,17 @@
 # Bitmask
 
+[![Minimum PHP Version](https://img.shields.io/badge/php->=7.0-8892BF.svg)](https://php.net/)
+[![Latest Stable Version](https://poser.pugx.org/phoenixrvd/bitmask/v/stable.svg)](https://packagist.org/packages/phoenixrvd/bitmask)
+[![composer.lock](https://poser.pugx.org/phoenixrvd/bitmask/composerlock)](https://packagist.org/packages/phoenixrvd/bitmask)
+[![License](https://poser.pugx.org/phoenixrvd/bitmask/license)](https://packagist.org/packages/phoenixrvd/bitmask)
+
+[![Build Status](https://travis-ci.org/phoenixrvd/bitmask.png?branch=master)](https://travis-ci.org/phoenixrvd/bitmask)
+[![Code Climate](https://codeclimate.com/github/phoenixrvd/bitmask.png)](https://codeclimate.com/github/phoenixrvd/bitmask)
+[![StyleCI](https://styleci.io/repos/138226713/shield?branch=master)](https://styleci.io/repos/138226713)
+[![Test Coverage](https://codeclimate.com/github/phoenixrvd/bitmask/badges/coverage.svg)](https://codeclimate.com/github/phoenixrvd/bitmask/coverage)
+[![BCH compliance](https://bettercodehub.com/edge/badge/phoenixrvd/bitmask)](https://bettercodehub.com/results/phoenixrvd/bitmask)
+[![Latest Unstable Version](https://poser.pugx.org/phoenixrvd/bitmask/v/unstable.svg)](https://packagist.org/packages/phoenixrvd/bitmask)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
