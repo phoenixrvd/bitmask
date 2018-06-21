@@ -1,6 +1,7 @@
 <?php
 
-class StateMap {
+class StateMap
+{
     const OPTION_1 = 0;
     const OPTION_2 = 1;
     const OPTION_4 = 2;
@@ -11,11 +12,11 @@ class StateMap {
 // Check for Active Feature
 $activeFeatures = (new \PhoenixRVD\Bitmask\BitmaskFactory())->fromInt(6);
 
-if($activeFeatures->isOn(StateMap::OPTION_1)){
+if ($activeFeatures->isOn(StateMap::OPTION_1)) {
     // Do this
 }
 
-if($activeFeatures->isOff(StateMap::OPTION_2)){
+if ($activeFeatures->isOff(StateMap::OPTION_2)) {
     // Do that
 }
 

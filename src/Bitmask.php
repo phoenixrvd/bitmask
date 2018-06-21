@@ -4,7 +4,6 @@ namespace PhoenixRVD\Bitmask;
 
 class Bitmask
 {
-
     /**
      * @var int
      */
@@ -64,6 +63,6 @@ class Bitmask
 
     public function __toString()
     {
-        return (string)$this->intMask;
+        return (string) $this->intMask;
     }
 }

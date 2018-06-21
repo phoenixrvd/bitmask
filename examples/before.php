@@ -1,6 +1,7 @@
 <?php
 
-class StateMap {
+class StateMap
+{
     const OPTION_1 = 1;
     const OPTION_2 = 2;
     const OPTION_4 = 4;
@@ -10,11 +11,11 @@ class StateMap {
 // Check for Active Feature
 $activeFeatures = 6;
 
-if(($activeFeatures & StateMap::OPTION_1) === StateMap::OPTION_1){
+if (($activeFeatures & StateMap::OPTION_1) === StateMap::OPTION_1) {
     // Do this
 }
 
-if(($activeFeatures & StateMap::OPTION_2) !== StateMap::OPTION_2){
+if (($activeFeatures & StateMap::OPTION_2) !== StateMap::OPTION_2) {
     // Do this
 }
 

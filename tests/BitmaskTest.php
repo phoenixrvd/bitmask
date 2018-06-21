@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class BitmaskTest extends TestCase
 {
-
     /**
      * @var BitmaskFactory
      */
