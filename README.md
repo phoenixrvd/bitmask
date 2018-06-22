@@ -82,7 +82,7 @@ if($activeFeatures->isOff(StateMap::OPTION_2)) {
 $activeFeatures->on(StateMap::OPTION_5, StateMap::OPTION_6);
 
 // Deactivate options
-$activeFeatures->on(StateMap::OPTION_4, StateMap::OPTION_1);
+$activeFeatures->off(StateMap::OPTION_4, StateMap::OPTION_1);
 ```
 
 ## Testing
