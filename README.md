@@ -16,6 +16,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Installation](#installation)
 - [Example](#example)
 - [Testing](#testing)
 - [Copyright and license](#copyright-and-license)
@@ -26,6 +27,13 @@ In PHP a number is (mostly) 4 Bytes long. This means that one number actually us
 
 In this case 32 boolean values can be stored as single integer.  The problem ist a 'magic numbers'.
 
+## Installation
+
+Install the latest version with
+
+```bash
+composer require phoenixrvd/bitmask
+```
 ## Example
 
 Without this API [before.php](examples/before.php)
